@@ -53,7 +53,7 @@ public class ArchiwumRepositoryCommandLineRunner implements CommandLineRunner {
 	private ArchiwistaRecenzentRepository archiwistaRecenzentRepository;
 	@Override
 	public void run(String... args) throws Exception {
-		/*DateFormat format = new SimpleDateFormat("yyyy/MM/dd");
+		DateFormat format = new SimpleDateFormat("yyyy/MM/dd");
 		
 			Date date = format.parse("1987/04/15");
 		Nośnik nośnik = new Nośnik("Playstation 1", "Sony");
@@ -202,7 +202,7 @@ public class ArchiwumRepositoryCommandLineRunner implements CommandLineRunner {
 		log.info("Nowe archiwista został stworzony: " + archiwista);
 		log.info("Nowe archiwista został stworzony: " + archiwista2);
 		log.info("Nowe raport został stworzony: " + raport);
-		log.info("Nowe raport został stworzony: " + raport2);*/
+		log.info("Nowe raport został stworzony: " + raport2);
 
 	}
 
