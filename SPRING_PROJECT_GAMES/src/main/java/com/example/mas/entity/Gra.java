@@ -36,9 +36,11 @@ public class Gra {
 	  @GeneratedValue(strategy=GenerationType.AUTO)  
 	  @Column(name="gra_id") 
 	private long id;
-	
 
-public enum GameType {
+
+
+
+	public enum GameType {
 	Unknown, SinglePlayer, MultiPlayer, SingleMultiPlayer
 }
 	
@@ -72,7 +74,7 @@ public enum GameType {
 	private Studio studio; 
 
 
-	Gra(){
+	public Gra(){
 		
 	}
 
